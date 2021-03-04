@@ -1,0 +1,113 @@
+.nav{
+    background-color: rgb(122, 203, 200);
+    height: 300px;
+    padding: 20px 0px;
+}
+.nav ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav li{
+    display:
+    color:black;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+.nav li a{
+    color:black;
+}
+.nav ul li a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.heading{
+    height: 200px;
+}
+.personalInfo{
+    margin:50px 0;
+    background-color:rgb(204, 203, 203);
+    height: 200px;
+}
+.personalInfo h6{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width:60px;
+}
+.personalPortrait{
+
+
+}
+
+
+.projects{
+    margin: 20px 0;
+}
+.projects h3{
+    font-weight: bolder;
+}
+.projects p{
+    margin: 10px 0 30px 0;
+}
+.projects img{
+    width:100%;
+    margin: 0px 0px;
+    display:inline;
+    padding: 5px 5px;
+}
+.skills{
+    box-shadow: 0 6px 30px 0 rgb(68, 66, 66);
+    height: auto;
+    margin: 50px 0;
+    width: auto;
+    padding: 20px 30px 50px 30px;
+}
+.skills h3{
+    font-weight: bolder;
+}
+.skills h6{
+    font-weight: bold;
+}
+.skills p{
+    margin: 10px 0 30px 0;
+}
+.footer{
+    background-image: linear-gradient(to right, rgb(122, 203, 200) , rgb(194, 186, 255));
+    height: 250px;
+    padding: 50px 0px 0px 0px;
+}
+
+.brand{
+    color: yellow;
+    font-weight: bolder;
+    font-size:50px;
+    text-shadow: 2px 2px 6px #524d4d;
+}
+.footerCopyright{
+    margin: 10px 0px;
+}
+.footerLogos ul li{
+    font-weight: bold;
+    list-style: none;
+
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.text-center{
+    text-align: center;
+}
+
+.heading ul li{
+    background-color: yellow;
+    border-radius: 100%;
+    height:100px;
+    width:100px;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    list-style: none;
+
+}

@@ -1,0 +1,213 @@
+h2{
+    font-size: 4vh;
+}
+p{
+    font-size: 1.75vh;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.nav{
+    background-color: rgb(122, 203, 200);
+    height: auto;
+    padding: 20px 0px;
+}
+.nav ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+.nav li{
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    margin: 20px 10px;
+}
+.nav li a{
+    color:black;
+}
+.nav ul li a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.heading{
+    height: auto;
+    margin: 3vw 0px;
+    padding:0px 7vw;
+}
+.heading h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+.personalInfo{
+    margin:10px 0;
+    background-color:rgba(122, 203, 200, 0.342);
+    height: auto;
+    padding: 2rem;
+}
+.personalInfo ul{
+    padding: 1rem 0;
+}
+.personalInfo img{
+    height: 4rem;
+    width: 4rem;
+}
+.personalInfo a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.personalInfo a:active{
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+}
+.personalInfo a:hover{
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+
+}
+.personalPortrait{
+    margin:10px 0;
+    background-color:;
+    width: 100%;
+    height:auto;
+}
+.personalPortrait img{
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.projects{
+    margin: 2vw 0px;
+}
+.projects h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.projects h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.projects p{
+    margin: 10px 0 30px 0;
+}
+.projects img{
+    width:100%;
+    display:inline;
+    padding: 5px 5px;
+}
+.selected h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.article{
+    box-shadow: 0 6px 2rem 0 rgb(68, 66, 66);
+    height: auto;
+    margin: 4vw 7vw;
+    width: auto;
+    padding: 20px 30px 50px 30px;
+}
+.article h3{
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+.article h6{
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+.article p{
+    margin: 10px 0 30px 0;
+}
+.article ul{
+    display:block;
+    padding:0;
+}
+.article li{
+    list-style: none;
+}
+.contact-me{
+    width: auto;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+}
+.contact-me h3{
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+.contact-me h6{
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+.contact-me p{
+    margin: 10px 0 30px 0;
+}
+.contact-me ul{
+    display:block;
+    padding:0;
+}
+.contact-me li{
+    list-style: none;
+}
+.footer{
+    background-image: linear-gradient(to right, rgb(122, 203, 200) , rgb(194, 186, 255));
+    height: auto;
+    padding: 50px 0px 0px 0px;
+}
+
+.brand{
+    color: yellow;
+    font-weight: bolder;
+    font-size:50px;
+    text-shadow: 2px 2px 6px #524d4d;
+}
+.footerCopyright{
+    padding: 30px 0px;
+
+}
+.footerLogos ul{
+    display:block;
+    padding: 0;
+}
+.footerLogos li{
+    font-weight: bold;
+    list-style: none;
+    display:inline;
+}
+.footerLogos img{
+    height: 4rem;
+    width: 4rem;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.text-center{
+    text-align: center;
+}
+
+.heading ul li{
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+}
+hr.rounded {
+    border-top: 4px solid rgb(70, 117, 116);
+    border-radius: 5px;
+  }
+.tab { text-indent:40px }
